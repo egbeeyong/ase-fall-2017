@@ -23,8 +23,8 @@ public class Calculator implements CalculatorIF {
         assertEquals("10 x 10 must be 100", 100, test.multiply(10, 10));
         assertEquals("12 + 10 must be 22", 22, test.sum(12, 10));
         assertEquals("13 - 8 must be 5", 5, test.substract(13, 8));
-        assertEquals("15 / 5 must be 3", 3, test.divide(12, 4));
-        
+        assertEquals("12 / 4 must be 3", 3, test.divide(12, 4));
+	assertEquals("12/ 5 must be 3", 3, test.divide(12, 4));        
     }
    @Override
    public int sum(int m, int n){
